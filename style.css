@@ -1,0 +1,27 @@
+p {
+ margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 25%;
+  color: brown;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: lightgray;
+}
+h1 {
+  width: 500px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px){
+  p{
+    display: block;
+    width: auto;
+    height: auto;
+  }  
+}
+@media screen and (max-width: 600px){
+    p{
+    display: block;
+    width: auto;
+    height: auto;
+  } 
+}
